@@ -10,25 +10,50 @@ import XCTest
 @testable import toy_robot
 
 class toy_robotTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    func testSimulationAsExpected(){
+        let report : Report? = Report()
+        report?.addReport(report: "0,3,EAST")
+        
+        let commands : CommandSimulator = CommandSimulator()
+        commands.addCommand(command: "PLACE 3,3,EAST")
+        commands.addCommand(command: "RIGHT")
+        commands.addCommand(command: "MOVE")
+        commands.addCommand(command: "RIGHT")
+        commands.addCommand(command: "MOVE")
+        commands.addCommand(command: "MOVE")
+        commands.addCommand(command: "MOVE")
+        commands.addCommand(command: "RIGHT")
+        commands.addCommand(command: "MOVE")
+        commands.addCommand(command: "RIGHT")
+        commands.addCommand(command: "REPORT")
+        XCTAssertEqual(executeSimulations(commands: commands), report!)
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func testMissingRobot(){
+        let report : Report? = Report()
+        report?.addReport(report: "ROBOT MISSING")
+        
+        let commands : CommandSimulator = CommandSimulator()
+        commands.addCommand(command: "MOVE")
+        commands.addCommand(command: "REPORT")
+        
+        XCTAssertEqual(executeSimulations(commands: commands), report!)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testFailingCommands(){
+        let report : Report? = Report()
+        report?.addReport(report: "0,0,SOUTH")
+        
+        let commands : CommandSimulator = CommandSimulator()
+        commands.addCommand(command: "PLACE 0,0,SOUTH")
+        commands.addCommand(command: "MOVE")
+        commands.addCommand(command: "REPORT")
+        
+        XCTAssertEqual(executeSimulations(commands: commands), report!)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func executeSimulations(commands: CommandSimulator)-> Report{
+        let simService = RobotSimulationService.init()
+        return simService.startSimulation(simulation: commands)
     }
-
 }
+

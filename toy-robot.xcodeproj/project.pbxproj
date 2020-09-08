@@ -14,6 +14,24 @@
 		8D4306B82505C5A900C4A347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4306B72505C5A900C4A347 /* Assets.xcassets */; };
 		8D4306BB2505C5A900C4A347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4306B92505C5A900C4A347 /* LaunchScreen.storyboard */; };
 		8D4306C62505C5A900C4A347 /* toy_robotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306C52505C5A900C4A347 /* toy_robotTests.swift */; };
+		8D4306D12505C5B600C4A347 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306D02505C5B600C4A347 /* Robot.swift */; };
+		8D4306D22505C63500C4A347 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306D02505C5B600C4A347 /* Robot.swift */; };
+		8D4306D82506F92A00C4A347 /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306D72506F92A00C4A347 /* Commands.swift */; };
+		8D4306DA2507029E00C4A347 /* CommandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306D92507029E00C4A347 /* CommandType.swift */; };
+		8D4306DC250702A600C4A347 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306DB250702A600C4A347 /* Report.swift */; };
+		8D4306DE2507035600C4A347 /* CommandGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306DD2507035600C4A347 /* CommandGenerator.swift */; };
+		8D4306E025074F9800C4A347 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306DF25074F9800C4A347 /* Direction.swift */; };
+		8D4306E22507651E00C4A347 /* CommandSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306E12507651E00C4A347 /* CommandSimulator.swift */; };
+		8D4306E42507677700C4A347 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306E32507677700C4A347 /* Extensions.swift */; };
+		8D4306E62507766200C4A347 /* RobotSimulationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306E52507766200C4A347 /* RobotSimulationService.swift */; };
+		8D4306E8250778FC00C4A347 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306E32507677700C4A347 /* Extensions.swift */; };
+		8D4306E9250778FF00C4A347 /* CommandSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306E12507651E00C4A347 /* CommandSimulator.swift */; };
+		8D4306EA2507790200C4A347 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306DF25074F9800C4A347 /* Direction.swift */; };
+		8D4306EB2507790400C4A347 /* CommandGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306DD2507035600C4A347 /* CommandGenerator.swift */; };
+		8D4306EC2507790600C4A347 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306DB250702A600C4A347 /* Report.swift */; };
+		8D4306ED2507790800C4A347 /* CommandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306D92507029E00C4A347 /* CommandType.swift */; };
+		8D4306EE2507790B00C4A347 /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306D72506F92A00C4A347 /* Commands.swift */; };
+		8D4306EF25077D1B00C4A347 /* RobotSimulationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4306E52507766200C4A347 /* RobotSimulationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +56,15 @@
 		8D4306C12505C5A900C4A347 /* toy-robotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "toy-robotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4306C52505C5A900C4A347 /* toy_robotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toy_robotTests.swift; sourceTree = "<group>"; };
 		8D4306C72505C5A900C4A347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4306D02505C5B600C4A347 /* Robot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
+		8D4306D72506F92A00C4A347 /* Commands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands.swift; sourceTree = "<group>"; };
+		8D4306D92507029E00C4A347 /* CommandType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandType.swift; sourceTree = "<group>"; };
+		8D4306DB250702A600C4A347 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		8D4306DD2507035600C4A347 /* CommandGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandGenerator.swift; sourceTree = "<group>"; };
+		8D4306DF25074F9800C4A347 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		8D4306E12507651E00C4A347 /* CommandSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandSimulator.swift; sourceTree = "<group>"; };
+		8D4306E32507677700C4A347 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8D4306E52507766200C4A347 /* RobotSimulationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotSimulationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +113,15 @@
 				8D4306B72505C5A900C4A347 /* Assets.xcassets */,
 				8D4306B92505C5A900C4A347 /* LaunchScreen.storyboard */,
 				8D4306BC2505C5A900C4A347 /* Info.plist */,
+				8D4306D02505C5B600C4A347 /* Robot.swift */,
+				8D4306D72506F92A00C4A347 /* Commands.swift */,
+				8D4306D92507029E00C4A347 /* CommandType.swift */,
+				8D4306DB250702A600C4A347 /* Report.swift */,
+				8D4306DD2507035600C4A347 /* CommandGenerator.swift */,
+				8D4306DF25074F9800C4A347 /* Direction.swift */,
+				8D4306E12507651E00C4A347 /* CommandSimulator.swift */,
+				8D4306E32507677700C4A347 /* Extensions.swift */,
+				8D4306E52507766200C4A347 /* RobotSimulationService.swift */,
 			);
 			path = "toy-robot";
 			sourceTree = "<group>";
@@ -152,7 +188,6 @@
 					};
 					8D4306C02505C5A900C4A347 = {
 						CreatedOnToolsVersion = 11.6;
-						TestTargetID = 8D4306AA2505C5A400C4A347;
 					};
 				};
 			};
@@ -200,9 +235,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4306E22507651E00C4A347 /* CommandSimulator.swift in Sources */,
+				8D4306D12505C5B600C4A347 /* Robot.swift in Sources */,
 				8D4306B32505C5A400C4A347 /* ViewController.swift in Sources */,
+				8D4306E62507766200C4A347 /* RobotSimulationService.swift in Sources */,
+				8D4306DC250702A600C4A347 /* Report.swift in Sources */,
+				8D4306E42507677700C4A347 /* Extensions.swift in Sources */,
 				8D4306AF2505C5A400C4A347 /* AppDelegate.swift in Sources */,
+				8D4306DA2507029E00C4A347 /* CommandType.swift in Sources */,
+				8D4306D82506F92A00C4A347 /* Commands.swift in Sources */,
 				8D4306B12505C5A400C4A347 /* SceneDelegate.swift in Sources */,
+				8D4306DE2507035600C4A347 /* CommandGenerator.swift in Sources */,
+				8D4306E025074F9800C4A347 /* Direction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +254,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4306E9250778FF00C4A347 /* CommandSimulator.swift in Sources */,
+				8D4306E8250778FC00C4A347 /* Extensions.swift in Sources */,
+				8D4306EE2507790B00C4A347 /* Commands.swift in Sources */,
+				8D4306EC2507790600C4A347 /* Report.swift in Sources */,
+				8D4306D22505C63500C4A347 /* Robot.swift in Sources */,
+				8D4306EF25077D1B00C4A347 /* RobotSimulationService.swift in Sources */,
+				8D4306EB2507790400C4A347 /* CommandGenerator.swift in Sources */,
+				8D4306ED2507790800C4A347 /* CommandType.swift in Sources */,
 				8D4306C62505C5A900C4A347 /* toy_robotTests.swift in Sources */,
+				8D4306EA2507790200C4A347 /* Direction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +451,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24RYE4H3DU;
 				INFOPLIST_FILE = "toy-robotTests/Info.plist";
@@ -412,7 +464,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toy-robot.app/toy-robot";
 			};
 			name = Debug;
 		};
@@ -420,7 +471,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24RYE4H3DU;
 				INFOPLIST_FILE = "toy-robotTests/Info.plist";
@@ -434,7 +484,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toy-robot.app/toy-robot";
 			};
 			name = Release;
 		};
