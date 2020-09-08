@@ -3,7 +3,9 @@ Toy Robot Simulator
 ## Testing:
 
 #### Open Test Navigator
-<img width="1280" alt="Screenshot 2020-09-08 at 9 34 17 PM" src="https://user-images.githubusercontent.com/13760108/92472347-ae918580-f21c-11ea-93df-c2b148f7c973.png">
+
+![image](https://user-images.githubusercontent.com/13760108/92473534-18f6f580-f21e-11ea-9659-00b358ec2243.png)
+
 
  Click on toy robot tests run tests button. 
  Alter test commands in and change report to the expected output.
